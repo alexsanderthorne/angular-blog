@@ -13,9 +13,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-blog",
-            "index": "index.html",
+            "outputPath": "docs/",
+            "index": "src/index.html",
             "main": "src/main.ts",
+            "baseHref": "https://alexsanderthorne.github.io/angular-blog/",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
